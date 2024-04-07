@@ -6,6 +6,14 @@ Este é um projeto de uma calculadora de preços de PC desenvolvida em HTML, CSS
 
 - Adição e exclusão de componentes: Os usuários podem adicionar novos componentes, especificando o nome, marca, preço, link do produto e link da imagem (opcional). Eles também podem excluir componentes existentes.
 
+## Tecnologias Utilizadas
+
+- **HTML**: Utilizado para criar a estrutura da página web.
+- **CSS**: Utilizado para estilizar a página e torná-la visualmente atraente.
+- **JavaScript**: Utilizado para adicionar interatividade à página, como adicionar e excluir componentes, calcular o preço total e salvar os componentes no navegador.
+- **Armazenamento Local do Navegador**: Os componentes são armazenados localmente no navegador do usuário usando a funcionalidade de armazenamento local, permitindo que os dados persistam entre as sessões.
+
+
 - Visualização dinâmica dos componentes: A lista de componentes adicionados é exibida dinamicamente na página, mostrando o nome, marca, preço e um link para o produto. Se um link de imagem for fornecido, a imagem também será exibida ao lado das informações do componente.
 
 - Cálculo do preço total: O total acumulado dos preços dos componentes é exibido na parte inferior da página.
