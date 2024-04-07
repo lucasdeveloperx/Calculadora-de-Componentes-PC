@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Centralizar todo o conteúdo */
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.component {
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+}
+
+#componentList {
+  text-align: left;
+}
+
+.component-item {
+  margin-bottom: 10px;
+}
+
+.component-item button {
+  margin-left: 10px;
+}
+
+#totalPrice {
+  text-align: center;
+}
+
+.component-item {
+  margin-bottom: 10px;
+  display: flex; /* Adicionando flexbox para alinhar elementos */
+  align-items: center; /* Alinhando verticalmente ao centro */
+}
+
+.component-image {
+  width: 50px; /* Definindo a largura da imagem */
+  height: auto; /* Mantendo a proporção */
+  margin-left: 10px; /* Adicionando margem à esquerda para separar do texto */
+}
+
+.component-item a {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 50px; /* Defina a mesma altura da imagem */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0; /* Ajuste a altura conforme necessário */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin-bottom: 50px; /* Ajuste conforme a altura do rodapé */
+}

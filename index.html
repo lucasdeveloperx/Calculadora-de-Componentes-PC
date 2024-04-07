@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Preços de PC</title>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Componentes PC</h1>
+    <form id="pcForm">
+      <div class="component">
+        <label for="componentName">Nome do componente:</label>
+        <select id="componentName" name="componentName">
+          <option value="Processador">Processador</option>
+          <option value="Placa Mãe">Placa Mãe</option>
+          <option value="Memória RAM">Memória RAM</option>
+          <option value="SSD ou HD">SSD ou HD</option>
+          <option value="Fonte">Fonte</option>
+          <option value="Placa de Vídeo">Placa de Vídeo</option>
+        </select>
+      </div>
+      <div class="component">
+        <label for="componentBrand">Marca do componente:</label>
+        <input type="text" id="componentBrand" name="componentBrand" placeholder="Marca componente">
+      </div>
+      <div class="component">
+        <label for="componentPrice">Preço do componente:</label>
+        <input type="number" id="componentPrice" name="componentPrice">
+      </div>
+      <div class="component">
+        <label for="componentLink">Link do componente:</label>
+        <input type="text" id="componentLink" name="componentLink">
+      </div>
+      <div class="component">
+        <label for="componentImage">Link da imagem:</label>
+        <input type="text" id="componentImage" name="componentImage" placeholder="Link da imagem (opcional)">
+      </div>
+      <button type="button" onclick="addComponent()">Adicionar Componente</button>
+    </form>
+    <div id="componentList"></div>
+    <div id="totalPrice">Total: R$0.00</div>
+  </div>
+
+  <footer>
+    <p>Desenvolvido por <a href="https://github.com/lucasdeveloperx" target="_blank">LKDEVELOPER ☕</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
