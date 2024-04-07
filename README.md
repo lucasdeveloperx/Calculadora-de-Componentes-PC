@@ -21,4 +21,4 @@ Este é um projeto de uma calculadora de preços de PC desenvolvida em HTML, CSS
 
 Este projeto foi desenvolvido utilizando HTML para a estrutura da página, CSS para estilos visuais e JavaScript para funcionalidades interativas. A lista de componentes é armazenada localmente no navegador do usuário usando o armazenamento local do navegador.
 
-![Imagem](https://media.discordapp.net/attachments/1226548525752520705/1226555168686866564/image.png?ex=66253184&is=6612bc84&hm=d5d1296d4ebaefe31cd2734d97708ad5161c36f3b76f2e856a00464cbe7d7f06&=&format=webp&quality=lossless&width=996&height=480)
+![Imagem](https://media.discordapp.net/attachments/1226548525752520705/1226555620929441814/image.png?ex=662531f0&is=6612bcf0&hm=ed59f0cf117f8f5ce55d2b9f9fbdbd24a589215a54f9ba2f4a46774038c75aac&=&format=webp&quality=lossless&width=1005&height=480)
