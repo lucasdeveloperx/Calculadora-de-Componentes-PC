@@ -1,4 +1,4 @@
-# Calculadora de Preços de PC
+# Calculadora de Componentes do PC
 
 Este é um projeto de uma calculadora de preços de PC desenvolvida em HTML, CSS e JavaScript. Ele permite aos usuários calcular o preço total de um conjunto de componentes de computador, como processador, placa-mãe, memória RAM, SSD ou HD, fonte e placa de vídeo.
 
